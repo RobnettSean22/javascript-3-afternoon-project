@@ -48,9 +48,9 @@ const prices = [15.00, 23.00, 78.00, 34.00, 12.00, 86.00, 12.00, 79.00, 32.00];
 
 //Code Here
 let postTaxPrices = prices.map(function(tax){
-  
+  tax * 1.07
 })
-
+console.log(postTaxPrices)
 
 
 ////////// PROBLEM 3 //////////
@@ -96,8 +96,7 @@ const monstersInYourPocket = [{"monster":"Bulbabunny","CP":156},{"monster":"Bulb
   Use the filter method to return only the monsters that have a CP of over 200.
 */
 
-//Code Here
-let myStrongest = monstersInYourPocket.map(function(monster){
+let myStrongest = monstersInYourPocket.filter(function(monster){
   
 })
 
